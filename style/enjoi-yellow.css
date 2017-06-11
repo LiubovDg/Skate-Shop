@@ -1,0 +1,204 @@
+.basis {
+    display: block;
+    margin: auto;
+    width: 980px;
+    font-family: Arial;
+    background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/1400/ee8ee352983693.5924103f5cd8b.jpg)
+}
+
+.logo {
+    width: 215px;
+    Left: 20px;
+    padding: 20px 0 0;
+    margin-bottom: -15px;
+}
+
+.logo-text {
+    display: inline-block;
+    padding: 0 10px 20px;
+    font-size: 65px;
+    font-family: Broadway, sans-serif;
+    margin-bottom: 15px;
+    text-shadow: white 1px 1px 0, white 2px 2px 0,
+                 black 3px 3px 0, black 4px 4px 0,
+                 white 5px 5px 0;
+}
+
+.menu {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item {
+    display: inline;
+    list-style: none;
+    padding: 0 15px 0;
+    font-family: Arial;
+    position: relative;
+}
+
+.menu-shop-item {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    width: 150px;
+    height: 190px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #CCCCCC;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+
+}
+
+.submenu-product{
+    width:127px;
+    padding:5px 10px;
+    border:1px solid #aaa;
+    box-shadow: 0 0 7px #ccc, 0 10px 15px #ceceee inset;
+    border-radius:2px;
+}
+
+.submenu-product-item {
+    text-decoration: none;
+    width:100px;
+    color: black;
+}
+
+.register {
+    display: inline;
+    padding: 0 10px 0;
+    font-family: Arial;
+    bottom: 15em;
+    left: 60em;
+    position: relative;
+}
+
+.register-item {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    background: #ffffff;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.product-enjoi-yellow-item {
+    width: 100px;
+    padding: 12px 25px 12px 25px;
+}
+
+.name {
+    display: block;
+    position: relative;
+    left: 250px;
+    bottom: 350px;
+}
+
+.name-enjoi {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.description-product {
+    display: block;
+    position: relative;
+    left: 250px;
+    bottom: 350px
+}
+
+.product {
+    height: 390px;
+    width: 800px;
+    background: #ffffff;
+    border: 4px double black;
+    padding: 12px 25px;
+}
+
+.collection {
+    font-size: 17px;
+    font-family: Arial;
+    list-style: none;
+    line-height: 5px;
+    width: 220px;
+}
+
+.description-product-characteristics {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.title-info {
+    display: block;
+    position: relative;
+    left: 120px;
+    bottom: 8px;
+
+}
+
+.order {
+    display: block;
+    position: relative;
+    width: 100px;
+    bottom: 330px;
+    left: 680px;
+}
+
+.buy {
+    background: #005b00;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.animation {
+    position: relative;
+    top: 70px;
+    height: 180px;
+}
+
+.animation:hover .animation-item {
+  margin-left: 830px;
+}
+
+
+.railing {
+    width: 100%;
+    height: 100%;
+
+}
+
+.animation-item {
+    display: block;
+    position: relative;
+    width: 150px;
+    top: 13px;
+    transition: 1s ease-in;
+}
+
+footer {
+  position: relative;
+  left: 20px;
+  top: 260px;
+  padding: 10px 10px;
+}
